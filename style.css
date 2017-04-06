@@ -59,7 +59,7 @@ legend
 {
 	left: 50%;
 	position: relative;
-	margin-top: -415px;
+	margin-top: -465px;
 	margin-left: -570px;
 }
 
@@ -108,5 +108,16 @@ a.textlink
 .small
 {
 	font-size: 0.9em;
+}
+
+#menu
+{
+	position: relative;
+	top: -500px;
+	left: 30px;
+	margin-left: 400px;
+	background-color: hsla(228, 15%, 90%, 0.85);
+	border: 5px solid hsla(48, 67%, 30%, 0.65);
+	width: 220px;
 }
 
