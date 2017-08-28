@@ -1,0 +1,252 @@
+ body{
+     background-color: dimgray;
+     font-family: palatino;
+    }   
+
+.container{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    width: 95%;
+    border: 30px solid black;
+    border-radius: 2%;
+}
+
+
+/*Navigationsmenyn
+_______________________________________
+*/
+nav{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+/*länkar i navigationsmenyn */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+/* länkarnas färg vid hoovring*/
+.topnav a:hover {
+    background-color: dimgrey;
+    color: #f2f2f2;
+}
+
+/*Göm länken som öppnar och stänger menyn vid mobil- och surfskärmar*/
+.topnav .icon {
+    display: none;
+}
+
+
+/*vänster- , mitten- ,och höger-kolumn
+_______________________________________
+*/
+
+.aside_left{
+    float:left;
+    width: 21%;
+    margin-left: 10px;
+    height: auto;
+    color: black; 
+}
+
+.aside_right{
+    float:right; 
+    width: 21%;
+    height: auto;
+    margin-right: 10px;   
+}
+
+.sidokolumn_rubrik{
+    background-color: #333;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    color: #f2f2f2;
+}
+/* startsidans mittenkolumn */
+.middlecolumn_index{
+    float:left;
+    width: 55%;
+    height: auto;
+    margin: 0 auto;   
+}
+
+/* Övriga sidors mittenkolumn */
+.middlecolumn{
+    clear: both;
+    width: 100%;
+    margin-bottom: 20px;
+    min-height: 500px;
+    text-align: center;
+}
+
+/* 
+Footer
+_______________________________________
+*/
+footer{
+    clear:both;
+    width: 100%;
+    height:50px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*Innehåll i vänsterkolumnn
+_______________________________________
+*/
+#omSportenRubrik{
+    color: goldenrod;   
+}
+
+.om_sporten{
+    width: 90%; 
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+
+
+/*
+Avstånd mellan paragrafer på sidan: Styrelsen
+_______________________________________
+*/
+.styrelseposterTitle{
+    margin: 0px;
+    padding: 0;
+}
+
+.styrelsePara{
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.styrelseParaLast{
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 150px;
+}
+
+
+/*
+Sidan: Skiweek
+_______________________________________
+*/
+#skiGalleryTitle{
+    font-size: 1em;
+    text-align: center;
+    clear: left;
+}
+
+#skiweek_logo{
+    width: 10%;
+    float: left;
+    margin-left: 50px;
+}
+
+
+#gallery{
+    display: flex;
+    border-top: 1px solid black;
+    align-content: center;
+    width: 50%; 
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 600px;
+    overflow-x: auto;
+    margin-bottom: 0;
+}
+
+.galleryimg{
+    min-width: 160px;
+    min-height: 96px;
+}
+
+
+/*Fotogalleriets scrollningsfunktion
+_______________________________________
+*/
+#gallery::-webkit-scrollbar {
+    height: 10px;
+}
+ 
+#gallery::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#gallery::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  outline: 1px solid white;
+}
+
+
+/*
+Övrigt
+_______________________________________
+*/
+.sidtext{
+    width: 50%; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.sidtitel{
+    font-size: 4em;
+    text-align: center;
+    clear: left;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+}
+
+
+#sporten_logo{
+    margin: auto; 
+}
+
+/* facebook-knapp som endast skall visas på mobil-version*/
+#screen_fb{
+    display: none;
+}
+
+ 
+
+
+
